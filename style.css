@@ -91,11 +91,56 @@ h1
 }
 
 
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 7rem;
+}
+
+.social-media > div{
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    cursor: pointer;
+}
+
+.fb{
+    background-image: url('/images/icon-facebook.svg');
+    background-repeat: no-repeat;
+    
+}
+
+.pinterest{
+    background-image: url('/images/icon-pinterest.svg');
+    background-repeat: no-repeat;
+}
+
+.ig{
+    background-image: url('/images/icon-instagram.svg');
+    background-repeat: no-repeat;
+}
+
+
+.fb:hover{
+    background-image: url('/images/icon-facebook-hover.svg');
+}
+
+.pinterest:hover{
+    background-image: url('/images/icon-pinterest-hover.svg');
+}
+
+.ig:hover{
+    background-image: url('/images/icon-instagram-hover.svg');
+}
+
+
+
 @media only screen and (max-width: 495px)
 {
     .container
     {
-        margin: 0rem 2rem;
+        margin: 2rem;
     }
 }
 
