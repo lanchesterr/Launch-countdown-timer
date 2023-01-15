@@ -26,7 +26,7 @@ body
     justify-content: center;
     align-items: center;
     background-color:  hwb(225 11% 84%);
-    background-image: url('images/bg-stars.svg'), url('images/pattern-hills.svg');
+    background-image: url('bg-stars.svg'), url('pattern-hills.svg');
     background-position: top,bottom;
     background-size:contain;
     background-repeat: no-repeat,no-repeat;
@@ -106,32 +106,32 @@ h1
 }
 
 .fb{
-    background-image: url('/images/icon-facebook.svg');
+    background-image: url('icon-facebook.svg');
     background-repeat: no-repeat;
     
 }
 
 .pinterest{
-    background-image: url('/images/icon-pinterest.svg');
+    background-image: url('icon-pinterest.svg');
     background-repeat: no-repeat;
 }
 
 .ig{
-    background-image: url('/images/icon-instagram.svg');
+    background-image: url('icon-instagram.svg');
     background-repeat: no-repeat;
 }
 
 
 .fb:hover{
-    background-image: url('/images/icon-facebook-hover.svg');
+    background-image: url('icon-facebook-hover.svg');
 }
 
 .pinterest:hover{
-    background-image: url('/images/icon-pinterest-hover.svg');
+    background-image: url('icon-pinterest-hover.svg');
 }
 
 .ig:hover{
-    background-image: url('/images/icon-instagram-hover.svg');
+    background-image: url('icon-instagram-hover.svg');
 }
 
 
